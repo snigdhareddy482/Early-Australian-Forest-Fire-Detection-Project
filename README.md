@@ -4,7 +4,7 @@
 This repository contains the code for tracking and detecting forest fires in real-time video using YOLOv8. The project uses a pre-trained YOLOv8 model to identify the presence of forest fire in a given video frame and track it through subsequent frames. 
 
 
-![210901980-04861efd-dfc0-4a01-9373-13a36b5e1df4](https://github.com/user-attachments/assets/bee99cfb-4a85-46da-812f-d883e42bca0e)
+![fire2_mp4-61_jpg rf cd2e02b28632c34b35ee439732647713](https://github.com/user-attachments/assets/fc765133-3fc1-4168-b39e-29bdd635ce6b)
 
 
 
@@ -22,6 +22,15 @@ This repository contains the code for tracking and detecting forest fires in rea
 6. Custom Training
 7. Validate Custom Model
 8. Inference with Custom Model
+![test1_mp4-2_jpg rf 142bdc9c2e4935980c4e6922bb571048](https://github.com/user-attachments/assets/bdfd1063-42df-4ba0-8afc-d61a0d4431e3)
+
+
+https://github.com/user-attachments/assets/fd459def-68dd-47f9-bdc5-c33b72066c6a
+
+
+
+https://github.com/user-attachments/assets/9dfd7c36-aa7f-47f2-b9e2-2477c002d1d2
+
 
 ## Custom data
 Used roboflow to  annotate fire and smoke images.
@@ -40,6 +49,7 @@ The below chart show  the loss , mAP (mean Average Precision) score for the trai
 
 ### confusion Matrix : 
 ![alt text](/runs/detect/train/confusion_matrix.png)
+
 
 ##  Inference 
 Run the  model using below command:
