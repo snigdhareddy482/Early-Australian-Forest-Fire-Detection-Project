@@ -4,7 +4,7 @@
 This repository contains the code for tracking and detecting forest fires in real-time video using YOLOv8. The project uses a pre-trained YOLOv8 model to identify the presence of forest fire in a given video frame and track it through subsequent frames. 
 
 
-
+![210901980-04861efd-dfc0-4a01-9373-13a36b5e1df4](https://github.com/user-attachments/assets/bee99cfb-4a85-46da-812f-d883e42bca0e)
 
 
 
@@ -51,11 +51,11 @@ The --source argument is required to specify the path to the input video. the ab
 ## Result
 ![alt text](/runs/detect/train/val_batch0_pred.jpg)
 
-The project can detect forest fire in real-time video with high accuracy. The detection and tracking performance can be improved by fi![210901980-04861efd-dfc0-4a01-9373-13a36b5e1df4](https://github.com/user-attachments/assets/bee99cfb-4a85-46da-812f-d883e42bca0e)
-ne-tuning the YOLOv8 model on a custom dataset.![generate-new-version](https://github.com/user-attachments/assets/f7d96338-9dce-417f-8e1d-857474a140a2)
-
+The project can detect forest fire in real-time video with high accuracy. The detection and tracking performance can be improved by fi
+ne-tuning the YOLOv8 model on a custom dataset.
 It can be used as a starting point for more advanced projects and can be easily integrated into a larger system for fire monitoring.
 
+![generate-new-version](https://github.com/user-attachments/assets/f7d96338-9dce-417f-8e1d-857474a140a2)
 
 ## References
 
