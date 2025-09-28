@@ -3,8 +3,8 @@
 
 This repository contains the code for tracking and detecting forest fires in real-time video using YOLOv8. The project uses a pre-trained YOLOv8 model to identify the presence of forest fire in a given video frame and track it through subsequent frames. 
 
+![Forest-fire-trees](https://github.com/user-attachments/assets/d3cd8e92-0163-4f1b-86e8-b569312e3984)
 
-![fire2_mp4-61_jpg rf cd2e02b28632c34b35ee439732647713](https://github.com/user-attachments/assets/fc765133-3fc1-4168-b39e-29bdd635ce6b)
 
 
 
@@ -22,14 +22,13 @@ This repository contains the code for tracking and detecting forest fires in rea
 6. Custom Training
 7. Validate Custom Model
 8. Inference with Custom Model
-![test1_mp4-2_jpg rf 142bdc9c2e4935980c4e6922bb571048](https://github.com/user-attachments/assets/bdfd1063-42df-4ba0-8afc-d61a0d4431e3)
-
-
-https://github.com/user-attachments/assets/fd459def-68dd-47f9-bdc5-c33b72066c6a
 
 
 
-https://github.com/user-attachments/assets/9dfd7c36-aa7f-47f2-b9e2-2477c002d1d2
+
+
+
+
 
 
 ## Custom data
@@ -45,11 +44,11 @@ Sample notebook show how we can  add the Roboflow workflow project using API to 
 ## Evaluation
 The below chart show  the loss , mAP (mean Average Precision) score for the train, test,validation set.
 
-![alt text](/runs/detect/train/results.png)
+<img width="2400" height="1200" alt="dd84e9bc-eee9-4ddb-92f8-4c2495746b32" src="https://github.com/user-attachments/assets/785e8571-ef69-45c0-b95f-e344dce80974" />
 
 ### confusion Matrix : 
-![alt text](/runs/detect/train/confusion_matrix.png)
 
+<img width="3000" height="2250" alt="a53ced8e-ba2c-47d9-ad35-a2f2bd0deeb3" src="https://github.com/user-attachments/assets/8c161e1c-d512-4bd8-a812-c9566850f5e4" />
 
 ##  Inference 
 Run the  model using below command:
@@ -59,13 +58,13 @@ Run the  model using below command:
 The --source argument is required to specify the path to the input video. the above command save your weight in run/predict, which will contain the annotated frames with fire and smoke detections.
 
 ## Result
-![alt text](/runs/detect/train/val_batch0_pred.jpg)
 
-The project can detect forest fire in real-time video with high accuracy. The detection and tracking performance can be improved by fi
-ne-tuning the YOLOv8 model on a custom dataset.
+
+The project can detect forest fire in real-time video with high accuracy. The detection and tracking performance can be improved by fine-tuning the YOLOv8 model on a custom dataset.
 It can be used as a starting point for more advanced projects and can be easily integrated into a larger system for fire monitoring.
 
-![generate-new-version](https://github.com/user-attachments/assets/f7d96338-9dce-417f-8e1d-857474a140a2)
+
+
 
 ## References
 
